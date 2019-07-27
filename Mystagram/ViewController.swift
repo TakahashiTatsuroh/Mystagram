@@ -8,8 +8,12 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+internal class ViewController: UIViewController {
+    
+    internal let images: [String] = []
 
+    @IBOutlet weak internal var collectionView: UICollectionView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
     }
@@ -19,4 +23,3 @@ class ViewController: UIViewController {
     }
     
 }
-
